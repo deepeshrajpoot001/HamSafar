@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_50sdp"
+       app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="@dimen/_120sdp"
+        android:text="jhansi"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15ssp"/>
+
+    <ImageView
+        android:layout_width="@dimen/_12sdp"
+        android:layout_height="@dimen/_12sdp"
+        android:src="@drawable/round_circle_24"
+        app:layout_constraintEnd_toStartOf="@id/name"
+        app:layout_constraintTop_toTopOf="@id/name"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_5sdp"/>
+
+    <View
+        android:id="@+id/viewSupporter"
+        android:layout_width="@dimen/_2sdp"
+        android:layout_height="0dp"
+        android:background="#16E907"
+        app:layout_constraintEnd_toStartOf="@id/name"
+        app:layout_constraintTop_toTopOf="@id/name"
+        app:layout_constraintBottom_toBottomOf="@id/name"
+        android:layout_marginEnd="@dimen/_20sdp"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

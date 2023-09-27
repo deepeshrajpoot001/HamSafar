@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="@dimen/_8sdp"
+    android:layout_marginStart="@dimen/_8sdp"
+    android:layout_marginEnd="@dimen/_8sdp"
+    app:cardBackgroundColor="#FFFFE8">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/_8sdp">
+
+        <TextView
+            android:id="@+id/busId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="busId"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:textStyle="bold"
+            android:textColor="#F60808"
+            android:textSize="@dimen/_15ssp"
+            />
+
+        <TextView
+            android:id="@+id/busName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/busId"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14ssp"
+            android:text="name"
+            android:layout_alignParentTop="true"/>
+
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

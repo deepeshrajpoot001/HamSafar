@@ -69,6 +69,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         binding = ActivityMapsBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
+
+
         Log.d("ramram", "hi my name deepesh rajpoot1");
 
 
@@ -103,7 +105,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     @Override
     public void onLocationChanged(@NonNull Location location) {
-        Log.d("ramram","onLocationChanged");
+        Log.d("ramram","onLocationChanged"+location.toString());
+
+
         lastLocation = location;
         if (currentLocationMarker != null) {
             currentLocationMarker.remove();
