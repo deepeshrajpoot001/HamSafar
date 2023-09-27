@@ -29,9 +29,7 @@
             android:exported="false"
             android:launchMode="singleTop"
             android:parentActivityName=".adminActivity.StationListActivity" />
-        <activity
-            android:name=".MapsActivity"
-            android:exported="false" />
+
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
 
@@ -51,7 +49,7 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".SetTimeTable"
+            android:name=".MapsActivity"
             android:exported="true"
             android:label="@string/title_activity_maps">
             <intent-filter>
