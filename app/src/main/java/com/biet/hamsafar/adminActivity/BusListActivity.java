@@ -1,8 +1,10 @@
-package com.biet.hamsafar;
+package com.biet.hamsafar.adminActivity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.biet.hamsafar.R;
 
 public class BusListActivity extends AppCompatActivity {
 

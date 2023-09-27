@@ -1,9 +1,8 @@
-package com.biet.hamsafar;
+package com.biet.hamsafar.adminActivity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.ItemTouchHelper;
-import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
@@ -42,7 +41,7 @@ public class StationListActivity extends AppCompatActivity {
         binding.addButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(StationListActivity.this,SetStation.class);
+                Intent intent = new Intent(StationListActivity.this, SetStation.class);
                 intent.putExtra("type","add");
                 startActivity(intent);
             }
