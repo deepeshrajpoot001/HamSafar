@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "672887951931",
+    "project_id": "hamsafar-3a774",
+    "storage_bucket": "hamsafar-3a774.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672887951931:android:d6b6045d774b50a629821e",
+        "android_client_info": {
+          "package_name": "com.biet.hamsafar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672887951931-lo5n0inamfuq6o5e8d1paklc35uq0qgo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_YbGUsIJhridzAA7PHl-s8mJMGFUo_IM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672887951931-lo5n0inamfuq6o5e8d1paklc35uq0qgo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
